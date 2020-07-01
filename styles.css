@@ -1,7 +1,7 @@
 .left-container{
   background-color: turquoise;
   background-image: url("images/background-img.png");
-  width: 60%;
+  width: 65%;
   height: 100%;
   display: inline-block;
   margin: 0;
@@ -10,15 +10,75 @@
 
 .right-container{
   background-color: #F0F2F4;
-  width: 40%;
+  width: 35%;
   height: 100%;
   display: inline-block;
   margin: 0;
   position: absolute;
-  margin-left: 60%;
+  margin-left: 65%;
   text-align: center;
   font-family: 'Philosopher', sans-serif;
 }
+
+.css-input {
+     padding: 5px;
+     font-size: 16px;
+     border-width: 1px;
+     border-color: #cccccc;
+     background-color: #ffffff;
+     color: #000000;
+     border-style: solid;
+     border-radius: 48px;
+     box-shadow: 3px 1px 8px rgba(66,66,66,.75);
+     margin: 1.5rem auto auto auto;
+}
+ .css-input:focus {
+     outline:none;
+}
+
+.search-div{
+  text-align: center;
+  margin: 4rem;
+  margin-top: 0;
+  margin-left: 4.9rem;
+  width: 50%;
+}
+
+.search-bar{
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  position: relative;
+}
+
+
+.search-icon{
+  width: 2.7rem;
+  float: left;
+  margin:0;
+  padding-top: 1.4rem;
+  padding-left: 2.5rem;
+  padding-right: 0;
+  padding-bottom: auto;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.icons{
+  text-align: center;
+}
+
+.cat-icon{
+  width: 4rem;
+  margin: 0.5rem;
+}
+
+
 .btn {
   background: #7cbfeb;
   background-image: -webkit-linear-gradient(top, #7cbfeb, #257bb0);
@@ -47,36 +107,6 @@
   text-decoration: none;
 }
 
-.cat-icon{
-  width: 4rem;
-  margin: 0.5rem;
-}
-
-.search-div{
-  text-align: center;
-  margin: 4rem auto 4rem auto;
-  width: 50%;
-
-}
-.search-icon{
-  width: 5rem;
-  float: left;
-  margin:0;
-  padding-left: 2rem;
-}
-
-.a{
-  font-size: 2.25rem;
-  padding-top: 0.75rem;
-  text-align: left;
-  margin:0;
-}
-
-
-
-.icons{
-  text-align: center;
-}
 
 body{
   margin: 0;
