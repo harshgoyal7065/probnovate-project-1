@@ -1,0 +1,61 @@
+.left-container{
+  background-color: turquoise;
+  background-image: url("images/background-img.png");
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+}
+
+.right-container{
+  background-color: #F0F2F4;
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  margin-left: 60%;
+  text-align: center;
+}
+
+.cat-icon{
+  width: 4rem;
+  margin: 0.5rem;
+}
+
+.search-div{
+  text-align: center;
+  margin: 4rem auto 4rem auto;
+  width: 50%;
+
+}
+.search-icon{
+  width: 5rem;
+  float: left;
+  margin:0;
+  padding-left: 2rem;
+}
+
+.a{
+  font-size: 2.25rem;
+  padding-top: 0.75rem;
+  text-align: left;
+  margin:0;
+}
+
+
+
+.icons{
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  vertical-align: auto;
+  text-align: center;
+  margin-top: 30%;
+}
