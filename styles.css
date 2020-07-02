@@ -1,6 +1,4 @@
 .left-container{
-  background-color: turquoise;
-  background-image: url("images/background-img.png");
   width: 65%;
   height: 100%;
   display: inline-block;
@@ -110,10 +108,34 @@
 
 body{
   margin: 0;
+  background-image: url("images/background-img.png");
 }
 
 h1{
   vertical-align: auto;
   text-align: center;
   margin-top: 30%;
+}
+.mobile-text {
+  margin-left: 2.3rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.tv-text {
+  margin-left: 1.9rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.laptop-text {
+  margin-left: 2.3rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.headphone-text {
+  margin-left: 1rem;
+  margin-right: auto;
+  display: inline-block;
 }
