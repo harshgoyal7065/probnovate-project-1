@@ -3,51 +3,115 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Dancing+Script:wght@600;700&family=Lobster&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Script -->
+  <script src="https://kit.fontawesome.com/ed35c99e08.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+
   <title>Probnovate</title>
 </head>
 
 <body>
-  <div class="left-container">
-  </div>
 
-  <div class="right-container">
-    <h1>What are you looking for?</h1>
-    <br>
-    <div class="icons">
+  <!-- Container for Complete Site -->
 
-      <img src="images/smartphone-call.png" alt="mobile-icon" class="cat-icon">
-      <img src="images/tv-monitor.png" alt="TV-icon" class="cat-icon">
-      <img src="images/laptop.png" alt="laptop-icon" class="cat-icon">
-      <img src="images/headphones.png" alt="headphone-icon" class="cat-icon">
-      <br>
-      <!--<a class="mobile-text" href="https://www.ipu.ac.in">Mobile</a>-->
-      <h4 class="mobile-text">Mobile</h4>
-      <h4 class="tv-text">TV</h4>
-      <h4 class="laptop-text">Laptop</h4>
-      <h4 class="headphone-text">Headphones</h4>
-      <br>
-      <img src="images/car.png" alt="" class="cat-icon">
-      <img src="images/car.png" alt="" class="cat-icon">
-      <img src="images/car.png" alt="" class="cat-icon">
-      <img src="images/car.png" alt="" class="cat-icon">
-    </div>
-    <div class="search-div">
-      <img src="images/search-icon.png" alt="" class="search-icon">
-      <div class="search-bar">
-        <input type="text" class="css-input"</input>
+  <div class="container-fluid backg">
+
+        <!-- Left Portion -->
+        <div class="container left-container">
+        </div>
+
+        <!-- Right Portion -->
+
+        <div class="container right-container">
+          <h1>What are you looking for?</h1>
+
+          <!-- Search Bar Of Categories -->
+          <div class="search-div">
+            <img src="images/search-icon.png" alt="" class="search-icon">
+            <div class="search-bar">
+              <input type="text" class="css-input" placeholder="Categories" />
+            </div>
+          </div>
+          <br>
+
+          <!-- Icons and Buttons of Categories -->
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-3">
+                  <button type="button" class="btn btn-sm icon-btn">
+                  <i class="fas fa-mobile fa-2x"></i>
+            </button>
+            </div>
+            <div class="col col-lg-3">
+              <button type="button" class="btn btn-sm icon-btn">
+                <i class="fab fa-google-play fa-2x"></i>
+              </button>
+              </div>
+                <div class="col col-lg-3">
+              <button type="button" class="btn btn-sm icon-btn">
+              <i class="fas fa-laptop fa-2x"></i>
+            </button>
+            </div>
+            <div class="col col-lg-3">
+              <button type="button" class="btn btn-sm icon-btn">
+              <i class="fas fa-headphones-alt fa-2x"></i>
+            </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-lg-3">
+                <button type="button" class="btn btn-sm icon-btn">
+                <i class="fas fa-mobile fa-2x"></i>
+          </button>
+          </div>
+          <div class="col col-lg-3">
+            <button type="button" class="btn btn-sm icon-btn">
+              <i class="fas fa-tv fa-2x"></i>
+            </button>
+            </div>
+              <div class="col col-lg-3">
+            <button type="button" class="btn btn-sm icon-btn">
+            <i class="fas fa-laptop fa-2x"></i>
+          </button>
+          </div>
+          <div class="col col-lg-3">
+            <button type="button" class="btn btn-sm icon-btn">
+            <i class="fas fa-headphones-alt fa-2x"></i>
+          </button>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="brand-button">
-      <a class="btn" href="index.html">Button 1</a>
-      <a class="btn" href="index.html">Button 2</a>
-      <a class="btn" href="index.html">Button 3</a>
-      <a class="btn" href="index.html">Button 4</a>
-    </div>
+
+          <!-- Search Bar for brand -->
+
+          <div class="search-div">
+            <img src="images/search-icon.png" alt="" class="search-icon">
+            <div class="search-bar">
+              <input type="text" class="css-input" placeholder="brand"/>
+            </div>
+          </div>
+          <div class="brand-button">
+            <a class="btno" href="index.html">Button 1</a>
+            <a class="btno" href="index.html">Button 2</a>
+            <a class="btno" href="index.html">Button 3</a>
+            <a class="btno" href="index.html">Button 4</a>
+          </div>
+        </div>
+
+
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="index.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
