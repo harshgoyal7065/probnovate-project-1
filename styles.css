@@ -15,10 +15,8 @@ i{
   padding: 0;
 }
 .icon-btn{
-  border-radius: 100%;
   display: inline-block;
-  border: 1px solid black;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
 }
 .icon-btn:hover{
   background-color: #00a8cc;
@@ -81,8 +79,7 @@ i{
   padding: 0;
   text-align: left;
   position: relative;
-}
-
+ }
 
 .search-icon{
   width: 2.7rem;
