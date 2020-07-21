@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Dancing+Script:wght@600;700&family=Lobster&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/ed35c99e08.js" crossorigin="anonymous"></script>
@@ -20,7 +21,7 @@
 
   <!-- Navigation bar -->
   <header>
-  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
     <a class="navbar-brand" href="#">Probnovate</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">  <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,8 +48,8 @@
   <div class="container-fluid backg">
 
         <!-- Left Portion -->
-        <div class="container left-container">
-        </div>
+        <!-- <div class="container left-container">
+        </div> -->
 
         <!-- Right Portion -->
 
@@ -56,10 +57,11 @@
           <h1>What are you looking for?</h1>
 
           <!-- Search Bar Of Categories -->
-          <div class="search-div">
-            <img src="images/search-icon.png" alt="" class="search-icon">
-            <div class="search-bar">
+          <div class="div search-div">
+            <!-- <img src="images/search-icon.png" alt="" class="search-icon"> -->
+            <div class="div search-bar">
               <!-- <input type="text" class="css-input" placeholder="Categories" /> -->
+              <i class="fas fa-search fa-2x"></i>
               <select  id="cat" class="css-input" name="catego" placeholder="Categories" onchange=categ(1)>
                 <option value="">Select category</option>
               </select>
@@ -117,22 +119,24 @@
 
           <!-- Search Bar for brand -->
 
-          <div class="search-div">
-            <img src="images/search-icon.png" alt="" class="search-icon">
+          <div class="search-div div">
+            <!-- <img src="images/search-icon.png" alt="" class="search-icon"> -->
             <div class="search-bar">
               <!-- <input type="text" class="css-input" placeholder="brand"/> -->
+              <i class="fas fa-search fa-2x"></i>
               <select  id="brand" class="css-input" name="brands" placeholder="Brands">
                 <option>Select Brand</option>
               </select>
-
+              <br>
+              <button type="submit" name="button" class="btn btn-info submit-button btn-sub-">Search</button>
             </div>
           </div>
-          <div class="brand-button">
+          <!-- <div class="brand-button">
             <a class="btno" href="index.html">Button 1</a>
             <a class="btno" href="index.html">Button 2</a>
             <a class="btno" href="index.html">Button 3</a>
             <a class="btno" href="index.html">Button 4</a>
-          </div>
+          </div> -->
         </div>
 
 

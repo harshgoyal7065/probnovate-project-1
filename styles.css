@@ -4,6 +4,13 @@ h4{
 i{
   padding:5px;
 }
+html,body{
+  margin:0;
+  height:100%;
+}
+.div{
+  text-align: center;
+}
 .backg{
   background-image: url("images/background-img.png");
   padding: 0;
@@ -27,13 +34,13 @@ i{
   padding:5px;
   height:100vh;
 }
-.left-container{
+/* .left-container{
   width: 60%;
   height: 100%;
   display: inline-block;
   margin: 0;
   position: absolute;
-}
+} */
 
 .right-container{
   background-color: #F0F2F4;
@@ -44,8 +51,7 @@ i{
   position: absolute;
   margin-left: 60%;
   text-align: center;
-  font-family: 'Philosopher', sans-serif;
-  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .css-input {
@@ -64,7 +70,7 @@ i{
      outline:none;
 }
 
-.search-div{
+/* .search-div{
   text-align: center;
   margin: 4rem;
   margin-top: 0;
@@ -79,8 +85,8 @@ i{
   padding: 0;
   text-align: left;
   position: relative;
- }
-
+ } */
+/*
 .search-icon{
   width: 2.7rem;
   float: left;
@@ -89,7 +95,7 @@ i{
   padding-left: 2.5rem;
   padding-right: 0;
   padding-bottom: auto;
-}
+} */
 
 .hidden{
   display: none;
@@ -139,4 +145,17 @@ h1{
   vertical-align: auto;
   text-align: center;
   margin-top: 30%;
+}
+
+.search-div{
+  margin-top: 3.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.submit-button{
+  margin-top: 1rem;
+}
+
+.btn-sub-{
+  border-radius: 20px;
 }
