@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Database form</title>
+  </head>
+  <body>
+    <form>
+      <input id="category" type="text" name="category" placeholder="category"><br>
+      <input id="brands" type="text" name="brand" placeholder="brand"><br>
+      <input id="origin" type="text" name="origin" placeholder="origin"><br>
+      <textarea id="description" name="description" rows="8" cols="80" placeholder="description"></textarea><br>
+      <input id="link" type="text" name="link" placeholder="Link"><br>
+
+      <button id="btn" type="submit" name="submit">Submit</button>
+
+    </form>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyAYYCtdJguLPolxQ-kKVgt-_Sgn7CybGlY",
+            authDomain: "projectone-98900.firebaseapp.com",
+            databaseURL: "https://projectone-98900.firebaseio.com",
+            projectId: "projectone-98900",
+            storageBucket: "projectone-98900.appspot.com",
+            messagingSenderId: "95951408186",
+            appId: "1:95951408186:web:8507dcf47860038e3f3903",
+            measurementId: "G-LBZTWBXR9D"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
+
+
+
+    <script src="firbasee.js" charset="utf-8"></script>
+
+  </body>
+</html>
