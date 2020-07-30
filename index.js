@@ -16,7 +16,7 @@ var categor={
   "Washing Machine": ["Videocon","LG","Whirlpool"],
   "2-wheeler": ["Honda","Hero","Activa","Harley-Davidson"],
   "4-wheeler": ["Toyota","Maruti","Hyundai"],
-  "camera": ["Nikon","Sony","Erricson"],
+  "Camera": ["Nikon","Sony","Erricson","Canon"],
   "Fan/AC/Cooler": ["LG","Daikin","Usha","Bajaj"],
   "Other Utility Service": ["Urban Clap"]
 };
