@@ -7,7 +7,7 @@
 
 var categor={
   "categories": ["TV", "Mobile", "E-commerce","Headphones","Laptop","Washing machine","2-wheeler","4-wheeler",
-                  "camera","Fan/AC/Cooler","Other Utility services"],
+                  "Camera","Fan/AC/Cooler","Other Utility services"],
   "TV": ["Samsung","LG","Toshiba","Videocon"],
   "Mobile": ["Vivo","Oppo","Micromax","Samsung","Apple"],
   "E-commerce": ["Amazon","Flipkart","Big-Basket","Myntra"],
@@ -16,7 +16,7 @@ var categor={
   "Washing Machine": ["Videocon","LG","Whirlpool"],
   "2-wheeler": ["Honda","Hero","Activa","Harley-Davidson"],
   "4-wheeler": ["Toyota","Maruti","Hyundai"],
-  "Camera": ["Nikon","Sony","Erricson","Canon"],
+  "Camera": ["Nikon","Sony","Erricson","Canon","Panasonic","Fujifilm","Samsung","Casio","Kodak"],
   "Fan/AC/Cooler": ["LG","Daikin","Usha","Bajaj"],
   "Other Utility Service": ["Urban Clap"]
 };
