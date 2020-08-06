@@ -5,18 +5,19 @@
 });*/
 // This is to toggle the category search bar
 
+
+// Object of brand and categroies
 var categor={
-  "categories": ["TV", "Mobile", "E-commerce","Headphones","Laptop","Washing machine","2-wheeler","4-wheeler",
+  "categories": ["TV", "Mobile","Headphones","Laptop","Washing Machine","2-wheeler","4-wheeler",
                   "Camera","Fan/AC/Cooler","Other Utility services"],
-  "TV": ["Samsung","LG","Toshiba","Videocon"],
-  "Mobile": ["Vivo","Oppo","Micromax","Samsung","Apple"],
-  "E-commerce": ["Amazon","Flipkart","Big-Basket","Myntra"],
-  "Headphones": ["Boat","Bose","Sony","JBL"],
-  "Laptop": ["Lenovo","Dell","Asus","HP","Apple"],
-  "Washing Machine": ["Videocon","LG","Whirlpool"],
+  "TV": ["Samsung","LG","Toshiba","Videocon","Sony","Panasonic","Xiaomi Mi", "Onida"],
+  "Mobile": ["Vivo","Oppo","Micromax","Samsung","Apple","Xiaomi","Nokia","Lava"],
+  "Headphones": ["Boat","Bose","Sony","JBL","Sennheiser","Skullcandy"],
+  "Laptop": ["Lenovo","Dell","Asus","HP","Apple","Acer","Samsung","Toshiba"],
+  "Washing Machine": ["Videocon","LG","Whirlpool","Godrej","Onida","Samsung"],
   "2-wheeler": ["Honda","Hero","Activa","Harley-Davidson"],
   "4-wheeler": ["Toyota","Maruti","Hyundai"],
-  "Camera": ["Nikon","Sony","Erricson","Canon","Panasonic","Fujifilm","Samsung","Casio","Kodak"],
+  "Camera": ["Nikon","Sony","Erricson"],
   "Fan/AC/Cooler": ["LG","Daikin","Usha","Bajaj"],
   "Other Utility Service": ["Urban Clap"]
 };
@@ -24,11 +25,12 @@ var categor={
 abc= document.getElementById("cat");
 def= document.getElementById("brand")
 var sel;
+var selBrand;
 for(var i=0;i<categor["categories"].length;i++)
 {
   abc.innerHTML += "<option>"+categor["categories"][i]+"</option>";
 }
-var ghi= document.querySelectorAll(".btn");
+var ghi= document.querySelectorAll(".icon-btn");
 var loop= ghi.length;
 for(var i=0;i<loop;i++)
 {
@@ -61,4 +63,17 @@ function categ(a){
   {
     def.innerHTML += "<option>"+categor[sel][i]+"</option>";
   }
+
 }
+
+function brand()
+{
+  selBrand= def.options[def.selectedIndex].text;
+}
+
+var clik= document.getElementById("sbmt");
+clik.addEventListener("click", function(){
+  localStorage.setItem("category", sel);
+  localStorage.setItem("brands", selBrand);
+  window.document.location = "./page.html";
+});

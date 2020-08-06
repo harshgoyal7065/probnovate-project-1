@@ -4,19 +4,23 @@ h4{
 i{
   padding:5px;
 }
-html,body{
+body{
   margin:0;
   height:100%;
 }
 .div{
   text-align: center;
 }
-.backg{
+.left-container{
   background-image: url("images/background-img.png");
   padding: 0;
+  visibility: 20%;
 }
-.row{
-  margin-bottom: 10px;
+.rowone{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
 }
 .col{
   padding: 0;
@@ -30,26 +34,17 @@ html,body{
   display: inline-block;
   box-shadow: none;
 }
-.container-fluid{
-  padding:5px;
-  height:100vh;
+.backg{
+  width: 100%;
+  padding: 0;
+  height: 100vh;
 }
-/* .left-container{
-  width: 60%;
-  height: 100%;
-  display: inline-block;
-  margin: 0;
-  position: absolute;
-} */
+.left-container{
+  height: 100vh;
+}
 
 .right-container{
   background-color: #F0F2F4;
-  width: 40%;
-  height: 100%;
-  display: inline-block;
-  margin: 0;
-  position: absolute;
-  margin-left: 60%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -69,33 +64,6 @@ html,body{
  .css-input:focus {
      outline:none;
 }
-
-/* .search-div{
-  text-align: center;
-  margin: 4rem;
-  margin-top: 0;
-  margin-left: 4.9rem;
-  width: 50%;
-}
-
-.search-bar{
-  display: inline-block;
-  width: 50%;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  position: relative;
- } */
-/*
-.search-icon{
-  width: 2.7rem;
-  float: left;
-  margin:0;
-  padding-top: 1.4rem;
-  padding-left: 2.5rem;
-  padding-right: 0;
-  padding-bottom: auto;
-} */
 
 .hidden{
   display: none;
@@ -141,10 +109,16 @@ html,body{
 }
 
 
-h1{
+.what{
   vertical-align: auto;
   text-align: center;
+  margin-top: 20%;
+  font-size: 2rem;
+}
+.hello{
+  font-size: 2rem;
   margin-top: 30%;
+  text-align: center;
 }
 
 .search-div{

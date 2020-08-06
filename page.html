@@ -36,20 +36,14 @@
 
     <div class="container container-fluid">
 
-      <div class="brand">
-
-        <h1>Brand</h2>
-          <p>They are used in our normal daylife. But these are from china as they are not good for our phones. So we should use their alternatives from
-            our country if possible which is the best scenario or some other options .</p>
+      <div class="brand" id="brands">
+      </div>
 
           <div class="subbrand">
 
-            <h2> Alternatives brands</h3>
-              <p> As they are from our country we should use them and they are harmless for our phone.</p>
-
+            <h2> Alternatives brands</h2>
           </div>
 
-      </div>
 
       <!--Sub brand container-->
       <div class="sub-container">
@@ -122,8 +116,38 @@
 
         <button id="btn">Show More Brands</button>
       </div>
+
+
+      <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+           https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAYYCtdJguLPolxQ-kKVgt-_Sgn7CybGlY",
+          authDomain: "projectone-98900.firebaseapp.com",
+          databaseURL: "https://projectone-98900.firebaseio.com",
+          projectId: "projectone-98900",
+          storageBucket: "projectone-98900.appspot.com",
+          messagingSenderId: "95951408186",
+          appId: "1:95951408186:web:8507dcf47860038e3f3903",
+          measurementId: "G-LBZTWBXR9D"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
+
+
+
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="javascript.js" charset="utf-8"></script>
+      <script src="page.js" charset="utf-8"></script>
   </body>
 
   </html>
