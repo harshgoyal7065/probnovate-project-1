@@ -77,3 +77,9 @@ clik.addEventListener("click", function(){
   localStorage.setItem("brands", selBrand);
   window.document.location = "./page.html";
 });
+//Change
+document.getElementById("hide").style.display="none";
+$("button").on("click",function(){
+  document.getElementById("feed").style.display="none";
+  document.getElementById("hide").style.display="block";
+});
