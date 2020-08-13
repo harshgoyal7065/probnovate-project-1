@@ -12,9 +12,11 @@ body{
   text-align: center;
 }
 .left-container{
-  background-image: url("images/background-img.png");
+  background-image: url("images/bg.jpg");
   padding: 0;
   visibility: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .rowone{
   height: 100%;
@@ -44,7 +46,7 @@ body{
 }
 
 .right-container{
-  background-color: #F0F2F4;
+  /* background-color: #ffffff; */
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
@@ -147,4 +149,8 @@ input{
 }
 label{
   font-size: 25px;
+}
+
+.footer{
+  background-color: silver;
 }
