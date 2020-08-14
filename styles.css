@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 h4{
   margin-top:5px;
 }
@@ -10,6 +13,9 @@ body{
 }
 .div{
   text-align: center;
+}
+.fab:hover{
+  color: white;
 }
 .left-container{
   background-image: url("images/bg.jpg");
@@ -136,21 +142,30 @@ body{
   border-radius: 20px;
 }
  .feedback{
-  text-align:center;
-  padding: 20px;
-  margin-top: 100px;
+  text-align:left;
+  padding: 2rem;
+  margin-top: 1rem;
   padding-top: 40px;
 }
 form{
   margin: 0px;
 }
 input{
+  margin-top: 5px;
   font-size: 25px;
+  width: 90%;
 }
 label{
   font-size: 25px;
 }
+.feedbck{
+  margin: 0;
+  margin-top: 1rem;
+  width: 95%;
 
-.footer{
-  background-color: silver;
+  padding: 0;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 1rem;
 }
