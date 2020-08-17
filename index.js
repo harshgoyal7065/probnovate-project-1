@@ -105,3 +105,15 @@ $("#redir").on("click",function(){
   document.getElementById("feed").style.display="none";
   document.getElementById("hide").style.display="block";
 });
+
+//change
+document.getElementById("hide2").style.display="none";
+$("#new").on("click",function(){
+  document.getElementById("new").style.display="none";
+  document.getElementById("hide2").style.display="block";
+
+});
+$("#apply").on("click",function(){
+  document.getElementById("new").style.display="none";
+  document.getElementById("hide2").style.display="block";
+});
